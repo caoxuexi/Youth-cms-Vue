@@ -5,8 +5,8 @@
         <div class="welcome">
           <img src="../../assets/image/about/welcome.png" class="welcome-title" alt="" />
           <div class="subtitle">
-            <div class="guide">您还可以点击林间有风官方网站，查看更多作品</div>
-            <div class="link"><a href="https://www.talelin.com" target="_blank">https://talelin.com</a></div>
+            <div class="guide">您还可以点击作者个人网站，查看作者信息</div>
+            <div class="link"><a href="https://www.caoxuexi.cn" target="_blank">https://www.caoxuexi.cn</a></div>
           </div>
         </div>
         <img class="welcome-bg" src="../../assets/image/about/header-bg.png" alt="" />
@@ -14,38 +14,25 @@
       <div class="lin-info-right">
         <div class="team-detail">
           <div class="team-box">
-            <div class="team-title">产品团队</div>
+            <div class="team-title">感谢开源团队</div>
             <ul class="team-ul">
               <li>
-                <span class="shadow-box"> <i class="team-shadow"></i> </span> <span class="team-role">策划</span>
-                <span class="team-name">七月</span>
+                <span class="shadow-box"> <i class="team-shadow"></i> </span> <span class="team-role">LinCMS-SpringBoot</span>
+                <span class="team-name">Talelin团队</span>
               </li>
               <li>
-                <span class="shadow-box"> <i class="team-shadow"></i> </span> <span class="team-role">研发</span>
+                <span class="shadow-box"> <i class="team-shadow"></i> </span> <span class="team-role">LinCMS-Vue</span>
                 <span class="team-name">
                   <ul v-if="!showTeam">
-                    <li>Pedro</li>
-                    <li>一飞</li>
-                    <li>凉面</li>
-                    <li>圈圈</li>
-                    <li>家乐</li>
-                    <li>Jocky</li>
-                    <li>流乔</li>
-                    <li>西麦</li>
+                    <li>Talelin团队</li>
                   </ul>
                   <ul v-else>
                     <li>林间有风 CMS 组</li>
                   </ul>
                 </span>
               </li>
-              <li>
-                <span class="shadow-box"> <i class="team-shadow"></i> </span> <span class="team-role">设计</span>
-                <span class="team-name">瓜瓜</span>
-              </li>
             </ul>
           </div>
-          <div class="team-icon"><img src="../../assets/image/about/qrcode.jpg" alt="" /></div>
-          <p class="team-label">林间有风公众号</p>
         </div>
       </div>
     </div>
@@ -223,7 +210,7 @@ export default {
           }
           .link {
             margin-top: 6px;
-            width: 160px;
+            width: 220px;
             height: 22px;
             background: rgba(44, 95, 233, 1);
             border-radius: 11px;
@@ -290,7 +277,7 @@ export default {
 
               .team-role {
                 display: inline-block;
-                width: 30px;
+                width: 150px;
                 margin-right: 15px;
                 font-weight: 400;
                 color: #45526b;

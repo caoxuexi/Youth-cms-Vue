@@ -18,10 +18,10 @@
         <el-table-column :show-overflow-tooltip="true" prop="subtitle" label="副标题" width="250"></el-table-column>
         <el-table-column prop="category_id" label="分类id" width="100"></el-table-column>
         <el-table-column prop="price" label="价格(元)" width="150"></el-table-column>
-        <el-table-column prop="online" label="是否上架" width="150">
+        <el-table-column prop="online" label="是否上架" min-width="150">
           <template v-if="scope.row.online" slot-scope="scope">{{ scope.row.online | onLine }}</template>
         </el-table-column>
-        <el-table-column width="150" fixed="right" label="操作">
+        <el-table-column fixed="right" width="150" label="操作">
           <template slot-scope="scope">
             <el-button @click.prevent="handleEdit(scope.row)" type="primary" plain size="mini">编辑</el-button>
             <el-button
